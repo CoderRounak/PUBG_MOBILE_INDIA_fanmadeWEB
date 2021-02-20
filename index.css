@@ -158,7 +158,39 @@ color: rgb(255, 255, 255,0.9);
     text-align: center;
     background-color: rgb(236, 236, 234);
 }
-.image
+@media only screen and (max-width: 600px)
 {
-    width: 1530px;
+   .image
+   {
+       width:auto;
+   }
 }
+@media only screen and (min-width: 600px) 
+{
+   .image
+   {
+       width:auto;
+   }
+}
+@media only screen and (min-width: 768px)
+{
+   .image
+   {
+       width:auto;
+   }
+}
+@media only screen and (min-width: 992px)
+{
+   .image
+   {
+       width:auto;
+   }
+}
+@media only screen and (min-width: 1200px)
+{
+   .image
+   {
+       width:auto;
+   }
+}
+   
