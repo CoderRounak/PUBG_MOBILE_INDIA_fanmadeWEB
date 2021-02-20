@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    
+}
+
+.navbar ul .logo
+{
+    padding-top: 10px;
+    height: 30px;
+}
+.navbar{
+background-color:rgb(0, 0, 0);
+border-radius: 30px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 10px 10px;
+    
+
+    
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .search
+{
+    
+    flex-direction: row-reverse;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(238, 239, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+.navbar ul li a:hover
+{
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(238, 236, 232);
+}
+
+
+.search
+{
+    padding-top: 8px;
+}
+
+
+.search .search-btn
+{
+    
+    border-radius: 4px;
+}
+
+/* NAVBAR OVER */
+
+h1
+{
+   
+    font-size: 50px;
+    font-family: "Frijole";
+    text-align: center;
+    color: aliceblue;
+    
+}
+#first_h1
+{
+    padding-top: 60px;
+    color:rgba(202, 65, 15, 0.9) ;
+}
+#second_h1
+{
+color: rgb(255, 255, 255,0.9);
+}
+#third_h1
+{
+    color: rgb(43, 165, 43,0.9);
+}
+.heading
+{
+    background: url("https://images.unsplash.com/photo-1557461762-e08315322e3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 600px;
+    
+}
+
+.relaunch
+{
+    background-color: black;
+}
+.relaunch_heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    font-family: "Frijole";
+    padding-bottom: 30px;
+    padding-top: 20px;   
+}
+.relaunch .relaunchP
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+.download-btn
+{
+    background-color: rgb(68, 210, 65);
+    color: rgb(235, 238, 231);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.download-btn.play
+{
+    font-size: 25px;
+}
+.download-btn.apple
+{
+    font-size: 30px;
+}
+.download-now
+{
+    color: rgb(68, 211, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 30px;
+}
+.download
+{
+    text-align: center;
+    background-color: rgb(236, 236, 234);
+}
+.image
+{
+    width: 1530px;
+}
