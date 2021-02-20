@@ -193,4 +193,24 @@ color: rgb(255, 255, 255,0.9);
        width:auto;
    }
 }
-   
+  
+footer ul li
+{
+   text-decoration:none;
+   font-family: "Frijole";
+   padding-left: 20%;
+}
+footer ul .left-footer-heading
+{
+    font-size: 30px;
+}
+footer ul
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer
+{
+    background-color: black;
+    color: blanchedalmond;
+}
